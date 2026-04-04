@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Menu from "./menu";
+import Menu from "./Menu";
 
 const allItems = [
   { id: 1, name: "Pancakes", category: "breakfast", price: 5.99, img: "https://via.placeholder.com/150" },
