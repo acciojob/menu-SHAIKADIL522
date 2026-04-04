@@ -20,7 +20,7 @@ const App = () => {
     if (category === "all") {
       setMenuItems(allItems);
     } else {
-      setMenuItems(allItems.filter(item => item.category === category));
+      setMenuItems(allItems.filter((item) => item.category === category));
     }
   };
 

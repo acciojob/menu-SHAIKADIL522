@@ -10,7 +10,7 @@ const Menu = ({ menuItems, filterItems }) => {
       </div>
 
       <div className="menu-list">
-        {menuItems.map(item => (
+        {menuItems.map((item) => (
           <div
             key={item.id}
             className="menu-item"
