@@ -25,6 +25,6 @@ const Menu = ({ menuItems, filterItems }) => {
       </div>
     </div>
   );
-};
+};                                                                                                                                          
 
 export default Menu;
